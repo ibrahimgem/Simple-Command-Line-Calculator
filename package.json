@@ -2,14 +2,18 @@
   "dependencies": {
     "init": "^0.1.2",
     "inquirer": "^9.2.17"
+    
+  },
+  "bin": {
+    "calculatorbyibr11": "./main.js"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.11.30"
   },
-  "name": "calculator",
+  "name": "calculatorbyibr11",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
